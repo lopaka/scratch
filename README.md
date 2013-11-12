@@ -23,7 +23,7 @@ Add the provided recipes in this cookbook to your run list as needed.
 | Key | Description | Default |
 | --- | --- | --- |
 | ['rs-base']['swap']['size']  | The swap file size in MB.  This attribute must be a numeric value. | 1024 |
-| ['rs-base']['swap']['file']  | The location of the swap file.  This attribute must be a valid filename.
+| ['rs-base']['swap']['file']  | The location of the swap file.  This attribute must be a valid filename. \
 By default <span style="line-height: 1.5em;">this is on the ephemeral drive.
 If no ephemeral drive exists then it will be created </span><span style="line-height: 1.5em;">on the root '/'
 partition.</span> | /mnt/ephemeral/swapfile |
