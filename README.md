@@ -18,41 +18,41 @@ Github Repository: [https://github.com/rightscale-cookbooks/rs-base](https://git
 Place the `rs-base::default` recipe in the runlist.
 
 # Attributes
- 
+
 * `node['rs-base']['swap']['size']` - The swap file size in GB. This attribute must be an integer.
-  Default is `1`.
+  Default is `1`.
 * `node['rs-base']['swap']['file']` - The location of the swap file. This attribute must be a valid filename.
-  Default is `'/mnt/ephemeral/swapfile'`.
+  Default is `'/mnt/ephemeral/swapfile'`.
 * `node['rs-base']['ntp']['servers']` - List of fully qualified domain names for the array of servers that are used for
-  updating time.
-  Default is `['time.rightscale.com', 'ec2-us-east.time.rightscale.com', 'ec2-us-west.time.rightscale.com']`.
+  updating time.
+  Default is `['time.rightscale.com', 'ec2-us-east.time.rightscale.com', 'ec2-us-west.time.rightscale.com']`.
 * `node['rs-base']['rsyslog_server']` - FQDN or IP address of a remote rsyslog server. Default is `nil`.
- 
+
 # Recipes
- 
+
 ## `rs-base::default`
- 
+
 All-in-one recipe to run all recipes in rs-base cookbook.
- 
+
 ## `rs-base::swap`
- 
+
 Creates a swapfile of the specified size (in GB) `node['rs-base']['swap']['size']` in the
 specified location `node['rs-base']['swap']['file']` and enables it's usage.
 The swap file is added to `/etc/fstab` and will persist across reboots. If the size or the
 file location is invalid this recipe will fail with an error message indicating what the
 failure was.
- 
+
 ## `rs-base::ntp`
- 
+
 Configures ntp using servers in `node['rs-base']['ntp']['servers']`.
- 
+
 ## `rs-base::rsyslog`
- 
+
 Installs and configures the rsyslog service. If `node['rs-base']['rsyslog_server']` is set, its value will be
 used as the remote syslog server. Otherwise local machine is used.
- 
+
 ## `rs-base::collectd`
- 
+
 Installs the collectd client with some of the basic plugins, syslog, interface, df, disk, memory, load,
 processes, users, and network.
 
@@ -78,5 +78,5 @@ A resource to show as an example for this README doc.
 | `example_attribute` | Example attribute named example_attribute | | no |
 
 # Author
- 
-Author:: RightScale, Inc. (<cookbooks@rightscale.com>) 
+
+Author:: RightScale, Inc. (<cookbooks@rightscale.com>)
