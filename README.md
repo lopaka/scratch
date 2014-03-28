@@ -77,6 +77,33 @@ A resource to show as an example for this README doc.
 | `next_attribute` | Example attribute named next_attribute |  | yes |
 | `example_attribute` | Example attribute named example_attribute | | no |
 
+# Helpers
+
+This is a helper section for this README.  This is just an example of using this
+section. To use them in a recipe add the following:
+
+```ruby
+class Chef::Recipe
+  include RightScale::RightScaleTest
+end
+```
+
+## `testing_helper_method`
+
+Use this as an example for describing what your helper methods do.
+
+```ruby
+def testing_helper_method(node, application_name = nil, options = {})
+```
+
+### Parameters
+| Name | Description | Type |
+| --- | --- | --- |
+| node | the Chef node | Chef::Node |
+| application_name | the name of the application served by load balancer servers to search for; this is an optional parameter | String |
+| options | optional parameters | Hash |
+
+
 # Author
 
 Author:: RightScale, Inc. (<cookbooks@rightscale.com>)
