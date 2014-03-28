@@ -10,8 +10,8 @@ Github Repository: [https://github.com/rightscale-cookbooks/rs-base](https://git
  
 * Requires Chef 11 or higher
 * Platform
-  - Ubuntu 12.04
-  - CentOS 6.4
+  * Ubuntu 12.04
+  * CentOS 6.4
  
 # Usage
  
