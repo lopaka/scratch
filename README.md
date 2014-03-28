@@ -1,22 +1,22 @@
 # rs-base cookbook
- 
+
 [![Build Status](https://travis-ci.org/rightscale-cookbooks/rs-base.png?branch=master)](https://travis-ci.org/rightscale-cookbooks/rs-base)
- 
+
 Provides the basic recipes for setting up a RightScale instance.
- 
+
 Github Repository: [https://github.com/rightscale-cookbooks/rs-base](https://github.com/rightscale-cookbooks/rs-base)
- 
+
 # Requirements
- 
+
 * Requires Chef 11 or higher
 * Platform
   * Ubuntu 12.04
   * CentOS 6.4
- 
+
 # Usage
- 
+
 Place the `rs-base::default` recipe in the runlist.
- 
+
 # Attributes
  
 * `node['rs-base']['swap']['size']` - The swap file size in GB. This attribute must be an integer.
