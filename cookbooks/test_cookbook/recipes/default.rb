@@ -12,5 +12,5 @@
 if system('rpm -qa | grep rightscale-5 > /dev/null')
   right_link_tag 'hello:test=rightlinktag'
 else
-  machine_tag 'hello:test=rightlinktag'
+  machine_tag 'hello:test=machinetag'
 end
