@@ -1,4 +1,4 @@
-# machine_tag cookbook
+# test machine_tag cookbook
 
 [![Build Status](https://travis-ci.org/rightscale-cookbooks/machine_tag.png?branch=master)](https://travis-ci.org/rightscale-cookbooks/machine_tag)
 
