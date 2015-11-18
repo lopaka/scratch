@@ -1,0 +1,13 @@
+http://en.wikipedia.org/wiki/Don%27t_repeat_yourself
+http://en.wikipedia.org/wiki/KISS_principle
+http://en.wikipedia.org/wiki/Abstraction_principle_(programming)
+http://en.wikipedia.org/wiki/YAGNI 
+http://en.wikipedia.org/wiki/Open_Closed_Principle 
+http://en.wikipedia.org/wiki/Single_responsibility_principle
+http://en.wikipedia.org/wiki/Coupling_(computer_programming)
+http://en.wikipedia.org/wiki/Cohesion_(computer_science)
+http://en.wikipedia.org/wiki/Information_Hiding
+http://en.wikipedia.org/wiki/Law_of_Demeter
+http://en.wikipedia.org/wiki/Program_optimization
+http://en.wikipedia.org/wiki/Code_reuse
+http://en.wikipedia.org/wiki/Separation_of_concerns
