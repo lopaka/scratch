@@ -1,0 +1,6 @@
+version: '2'
+services:
+  syslog:
+    build: .
+    ports:
+    - '514:514'
